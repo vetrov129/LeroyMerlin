@@ -1,4 +1,4 @@
-package hi.dude.leroymerlin
+package hi.dude.leroymerlin.entities
 
 import android.graphics.Bitmap
 

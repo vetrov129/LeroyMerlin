@@ -1,4 +1,4 @@
-package hi.dude.leroymerlin
+package hi.dude.leroymerlin.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import hi.dude.leroymerlin.R
+import hi.dude.leroymerlin.entities.Product
 
 class ProductsRecyclerAdapter(private val products: List<Product>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {

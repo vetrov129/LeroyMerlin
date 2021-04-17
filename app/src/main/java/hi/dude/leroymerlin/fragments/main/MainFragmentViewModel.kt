@@ -4,9 +4,8 @@ import android.app.Application
 import android.content.res.Resources
 import android.graphics.BitmapFactory
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.MediatorLiveData
-import hi.dude.leroymerlin.Category
-import hi.dude.leroymerlin.Product
+import hi.dude.leroymerlin.entities.Category
+import hi.dude.leroymerlin.entities.Product
 import hi.dude.leroymerlin.R
 
 class MainFragmentViewModel(app: Application, private val resources: Resources) : AndroidViewModel(app) {
@@ -61,5 +60,6 @@ class MainFragmentViewModel(app: Application, private val resources: Resources) 
             BitmapFactory.decodeResource(resources, R.drawable.drill),
             resources.getString(R.string.price),
             resources.getString(R.string.product_description)
-        ))
+        )
+    )
 }

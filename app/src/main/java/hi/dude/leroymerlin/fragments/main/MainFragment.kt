@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import hi.dude.leroymerlin.*
+import hi.dude.leroymerlin.adapters.CategoryRecyclerAdapter
+import hi.dude.leroymerlin.adapters.ProductsRecyclerAdapter
 
 class MainFragment: Fragment() {
 
