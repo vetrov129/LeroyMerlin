@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/nav_search">
+
+    <fragment
+            android:id="@+id/nav_search"
+            android:name="hi.dude.leroymerlin.fragments.main.MainFragment"
+            android:label="@string/search"
+            tools:layout="@layout/fragment_main"/>
+
+    <fragment
+            android:id="@+id/nav_basket"
+            android:name="hi.dude.leroymerlin.fragments.BasketFragment"
+            android:label="@string/basket"
+            tools:layout="@layout/fragment_placeholder"/>
+
+    <fragment
+            android:id="@+id/nav_my_list"
+            android:name="hi.dude.leroymerlin.fragments.MyListFragment"
+            android:label="@string/my_list"
+            tools:layout="@layout/fragment_placeholder"/>
+
+    <fragment
+            android:id="@+id/nav_profile"
+            android:name="hi.dude.leroymerlin.fragments.ProfileFragment"
+            android:label="@string/profile"
+            tools:layout="@layout/fragment_placeholder"/>
+
+    <fragment
+            android:id="@+id/nav_shops"
+            android:name="hi.dude.leroymerlin.fragments.StoresFragments"
+            android:label="@string/shops"
+            tools:layout="@layout/fragment_placeholder"/>
+
+</navigation>

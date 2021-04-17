@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LeroyMerlin</string>
+    <string name="fragment_placeholder">Этот фрагмент не реализован</string>
+    <string name="search">Поиск</string>
+    <string name="my_list">Мой список</string>
+    <string name="shops">Магазины</string>
+    <string name="profile">Профиль</string>
+    <string name="basket">Корзина</string>
+    <string name="search_label">Поиск товаров</string>
+    <string name="test">test</string>
+    <string name="image_of_category">Image of category</string>
+    <string name="see_all">Смотреть всё</string>
+    <string name="catalog">Каталог</string>
+    <string name="price">"722 ₽/шт."</string>
+    <string name="product_description">Дрель очень хорошая качественная</string>
+    <string name="limited_offer">Предложение ограничено</string>
+    <string name="best_price">Лучшая цена</string>
+</resources>

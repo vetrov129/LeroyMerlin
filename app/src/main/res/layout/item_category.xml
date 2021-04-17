@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/colorLightGray">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/category_card_size"
+            android:layout_height="@dimen/category_card_size">
+
+        <TextView
+                android:id="@+id/item_category_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/test"
+                android:textSize="14sp"
+                android:textColor="@color/colorDarkGray"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="14dp"/>
+
+        <ImageView
+                android:id="@+id/item_category_image"
+                android:layout_width="124dp"
+                android:layout_height="124dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="46dp"
+                android:src="@drawable/roll"
+                android:contentDescription="@string/image_of_category"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

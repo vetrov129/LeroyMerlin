@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#53c440</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#050505</color>
+    <color name="colorGray">#777777</color>
+    <color name="colorLightGray">#f2f3f4</color>
+    <color name="colorDarkGray">#333333</color>
+    <color name="colorGrayHint">#7C333333</color>
+    <color name="colorNavRipple">#4DF1F1F1</color>
+    <color name="colorTransparent">#00000000</color>
+
+
+
+</resources>

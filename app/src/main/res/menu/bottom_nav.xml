@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:contentDescription="@string/search"
+            android:title="@string/search"/>
+    <item
+            android:id="@+id/nav_my_list"
+            android:icon="@drawable/ic_my_list"
+            android:contentDescription="@string/my_list"
+            android:title="@string/my_list" />
+    <item
+            android:id="@+id/nav_shops"
+            android:icon="@drawable/ic_shop"
+            android:contentDescription="@string/shops"
+            android:title="@string/shops" />
+
+    <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:contentDescription="@string/profile"
+            android:title="@string/profile" />
+
+    <item
+            android:id="@+id/nav_basket"
+            android:icon="@drawable/ic_basket"
+            android:contentDescription="@string/basket"
+            android:title="@string/basket" />
+</menu>
